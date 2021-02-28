@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, FlatList } from 'react-native';
 // import {  } from 'react-native-gesture-handler';
 import Animated from 'react-native-reanimated';
 import { COLORS, RADIUS, MATERIAL_HEIGHT, FONT, PADDING } from '../constants';
-import { iUnit } from '../types/furniture';
+import { iUnit } from '../types/material';
 import Material from './Material';
 
 interface iMaterialsProps {

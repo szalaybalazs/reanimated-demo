@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, SafeAreaView } from 'react-native';
-import { iUnit } from './types/furniture';
+import { iUnit } from './types/material';
 import Attribute from './Attributes/Attribute';
 const types = ['type1', 'type2', 'type3', 'type4'];
 const getTypes = (): string[] => {
@@ -16,6 +16,9 @@ const getTypes = (): string[] => {
 };
 
 const units: iUnit[] = new Array(540).fill(null).map((_, index: number) => ({
+  color: {
+    l: Math.random() * 100,
+  },
   name: `Material #${index + 1}`,
   id: `UNIT_${index}`,
   key: `unit-${index}`,

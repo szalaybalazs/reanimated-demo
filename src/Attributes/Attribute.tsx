@@ -3,7 +3,7 @@ import { StyleSheet, Text } from 'react-native';
 import Animated from 'react-native-reanimated';
 import { COLORS, FONT, PADDING, RADIUS } from '../constants';
 import TouchableOpacity from '../TouchableOpacity';
-import { iAttribute, iUnit } from '../types/furniture';
+import { iAttribute, iUnit } from '../types/material';
 import Selector from './Selector';
 
 interface iAttributeProps extends iAttribute {

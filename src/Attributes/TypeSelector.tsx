@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useEffect, useState, Suspense } from 'react';
 import { StyleSheet, View } from 'react-native';
 import Animated, { Value, timing, interpolate, Easing } from 'react-native-reanimated';
-import { iUnit } from '../types/furniture';
+import { iUnit } from '../types/material';
 const Materials = React.lazy(() => import('./Materials'));
 import Header from './Header';
 import { useMemoOne } from 'use-memo-one';

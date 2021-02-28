@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import Animated, { Value, timing, Easing, add, multiply } from 'react-native-reanimated';
 import { useMemoOne } from 'use-memo-one';
 import { MATERIAL_HEIGHT, PADDING, RADIUS, COLORS, FONT } from '../constants';
-import { iUnit } from '../types/furniture';
+import { iUnit } from '../types/material';
 import TouchableWithoutFeedback from '../TouchableWithoutFeedback';
 import Image from '../Image';
 

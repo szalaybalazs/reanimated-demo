@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import Animated, { Value, timing, Easing, multiply } from 'react-native-reanimated';
 import { useMemoOne } from 'use-memo-one';
 import { PADDING, MATERIAL_HEIGHT } from '../constants';
-import { iUnit } from '../types/furniture';
+import { iUnit } from '../types/material';
 import TypeSelector from './TypeSelector';
 
 interface iSelectorProps {
